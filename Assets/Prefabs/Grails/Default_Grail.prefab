@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2599233981374725041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7062533773854385721}
+  - component: {fileID: 1238723377704129976}
+  - component: {fileID: 9047117255380556627}
+  m_Layer: 0
+  m_Name: Default_Grail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7062533773854385721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599233981374725041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1238723377704129976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599233981374725041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5077f3b0f57f39b4e8dc6caa7ef2e1fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grailName: Default_Grail
+  baseDamage: 50
+  baseKnockback: 10
+  baseStunTime: 1
+  baseParticles: []
+  baseAttackLength: 0.1
+  baseCoolDown: 0.25
+  baseIsProjectile: 0
+  superDamage: 0
+  superKnockback: 0
+  superStunTime: 0
+  superParticles: []
+  superAnimation: 0
+  superBarPercentage: 0
+  maxBarPercent: 100
+  superChargeSpeed: 1
+  superAttackLength: 0
+  superEndLag: 0
+  projectile: {fileID: 0}
+  hitBoxPrefab: {fileID: 783474141925889422, guid: fe3583e9c3967d74b91dd9190ee6f604,
+    type: 3}
+--- !u!114 &9047117255380556627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599233981374725041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547005d3085a213429770727b4e816b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}

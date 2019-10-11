@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MainCanvas
+  - Enemy
+  - RoomTransitioner
+  - FightMusicTrigger
+  - PlayerAttack
+  - Overhead_Cam
+  - Follow_Cam
+  - Winner
+  - Grail
+  - Inventory
+  - StartRoom
+  - PlayerRangedHitBox
+  - HealingOrb
+  - DamageText
+  - Projectile
+  - ObjectPooler
+  - Asmodeus_Cutscene
+  - LevelBuilder
+  - InputController
+  - UI_Grail_Inventory
+  - UI_CollectedItem
+  - UI_CollectedItemBackground
+  - debug
+  - EndRoom
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ignore NavMesh
+  - Corridor1
+  - Corridor2
+  - Corridor3
+  - Corridor4
+  - Corridor5
+  - PostProcessing
+  - Room
+  - Enemy Wall
+  - Enemy
+  - Player
+  - Enemy Range
+  - Player Attack
+  - Room Transitioner
+  - Enemy Projectile
+  - Minimap
+  - UI_Grails
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

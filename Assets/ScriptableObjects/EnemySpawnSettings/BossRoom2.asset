@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0230a08e2ddde14458e9c9cf1f3b8cfa, type: 3}
+  m_Name: BossRoom2
+  m_EditorClassIdentifier: 
+  minNumberOfEnemies: 4
+  maxNumberOfEnemies: 4
+  EnemyTypes:
+  - enemy: {fileID: 9030406045491026229, guid: 875a2af28cd764948ad63b7fed322e89, type: 3}
+    maxNumber: 1
+  - enemy: {fileID: 3768696529698154538, guid: 061d38d4467821d4fa44bd4b7fd8b30a, type: 3}
+    maxNumber: 3

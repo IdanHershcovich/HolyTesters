@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6666661404304014239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6768525337484004866}
+  - component: {fileID: 1216828902642130672}
+  - component: {fileID: 3900325095334617818}
+  m_Layer: 0
+  m_Name: SteamLevelBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6768525337484004866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6666661404304014239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1216828902642130672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6666661404304014239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd81c5ccb9e854b4ea72bdc0adc36f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startRoomPrefab: {fileID: 2191028438203711799, guid: f5c4b675a6a060a41baeb3afc731a997,
+    type: 3}
+  endRoomPrefab: {fileID: 8561393110599442487, guid: 55e7f96b1d84e1b43873b5709257a326,
+    type: 3}
+  roomPrefabs:
+  - {fileID: 5497491848781018496, guid: 41457ecb04cad5d4097a66d3479506ab, type: 3}
+  - {fileID: 6764963833560779345, guid: a89ef45ce5bbc2242aaaf57d05b7bebd, type: 3}
+  - {fileID: 823160844873444344, guid: c5c65171d9794cf47837909fa45378b5, type: 3}
+  - {fileID: 823160844873444344, guid: 793391de9cb44674e93e31444a467331, type: 3}
+  - {fileID: 823160844873444344, guid: 957fe4775b7453745896cb314cff8dff, type: 3}
+  - {fileID: 823160844873444344, guid: ef96eab013fecf6448f5629d7613f987, type: 3}
+  iterantionRange: {x: 2, y: 6}
+  loading: {fileID: 0}
+  isBgOn: 0
+  surfaces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  levelComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3900325095334617818}
+        m_MethodName: RanomizeGrails
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  iterations: 0
+  rooms: []
+--- !u!114 &3900325095334617818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6666661404304014239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5d0eced2279534a8a22cf376c677ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grails:
+  - {fileID: -8522470688587625916, guid: 9e4d2cf48528b494a947bf1c4d47bb20, type: 3}
+  - {fileID: 405183140890767320, guid: 2b5c33a35d04a1943ab0698a3008475e, type: 3}
+  - {fileID: 5706370096679855241, guid: fc02efefe36747b4fbff4ddb2c7ca3d6, type: 3}
+  - {fileID: 5927442158670697399, guid: 2d3a130adc928d8488ca8d2bd87328c4, type: 3}
+  - {fileID: -5300326467297004248, guid: fe1e498058b91d24d9e888b700cdd171, type: 3}
+  spawnOptions: []
+  inventory: {fileID: 3712054869840881830, guid: 2640bf02e550b0d4596e4bed910175a1,
+    type: 3}
+  totalRooms: 0
+  grailLowerBound: 2
+  LevelBuilder: {fileID: 1216828902642130672}
+  rooms: []
+  totalGrails: 0
+  percentOfRoomsAsUpperBound: 70
